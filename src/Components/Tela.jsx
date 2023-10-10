@@ -28,6 +28,8 @@ export default () => {
 
             <div className="bg-yellow-600 h-full w-full border-2 border-green-500 flex flex-col">
                 <div className="header bg-slate-600 w-full text-white py-4 px-2 flex flex-row justify-end">
+                  
+                  <div className="notification p-2 bg-black w-7 h-7 rounded-full border-2 border-yellow-800 "></div>
                    <div className="user p-2 bg-black w-11 h-11 rounded-full border-2 border-yellow-800">
 
                    </div>
