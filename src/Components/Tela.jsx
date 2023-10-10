@@ -2,7 +2,6 @@ export default () => {
 
     return (
         <div className="bg-black w-full h-full flex">
-
             <div className="menu bg-blue-600 h-full w-16 flex flex-col items-end  px-2">
 
                 <div onClick={
@@ -28,8 +27,10 @@ export default () => {
             </div>
 
             <div className="bg-yellow-600 h-full w-full border-2 border-green-500 flex flex-col">
-                <div className="header bg-slate-600 w-full text-white py-4 px-2">
-                    header
+                <div className="header bg-slate-600 w-full text-white py-4 px-2 flex flex-row justify-end">
+                   <div className="user p-2 bg-black w-11 h-11 rounded-full border-2 border-yellow-800">
+
+                   </div>
                 </div>
                 <div className="body h-full w-full bg-white border-2 border-red-600">
                     body
@@ -38,7 +39,6 @@ export default () => {
                     <p>footer &copy; </p>
                 </div>
             </div>
-
         </div>
     )
 }
